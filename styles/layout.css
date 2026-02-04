@@ -2,6 +2,17 @@
   /* default theme color */
   /* can be overrided by uses `themeConfig` option */
   --slidev-theme-primary: #5d8392;
+
+  /* Brand colors */
+  --puzzle-brand1: #1e5a96; /* Dark Blue */
+  --puzzle-brand2: #3b7bbe; /* Bright Navy Blue */
+  --puzzle-brand3: #238bca; /* Green Blue Crayola */
+  --puzzle-brand4: #3fa8e0; /* Carolina Blue */
+  --puzzle-brand5: #46bcc0; /* Maximum Blue Green */
+  --puzzle-brand6: #2c97a6; /* Blue Munsell */
+  --puzzle-brand7: #69b978; /* Emerald */
+  --puzzle-brand8: #61b44b; /* Brilliant Green */
+  --puzzle-brand9: #1b2d53; /* Prussian Blue */
 }
 
 .slidev-layout.cover,
@@ -21,4 +32,40 @@
   table + h2 {
     @apply mt-10;
   }
+}
+
+.slidev-layout.cover {
+  grid-template-rows: min-content 1fr;
+
+  background-color: var(--puzzle-brand9);
+  color: white;
+  background-image: url("../images/cover.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 300px;
+}
+
+.slidev-layout.cover .logo {
+  height: 50px;
+}
+
+.slidev-layout.cover h1 {
+  font-size: 70px;
+  line-height: 1.15;
+}
+
+.slidev-layout.cover h1 span.highlight {
+  color: var(--puzzle-brand4);
+}
+
+.slidev-layout.cover h1 + p {
+  @apply mb-0;
+  opacity: 1;
+  font-size: 24px;
+}
+
+.slidev-layout.cover h1 + p a {
+  @apply block mt-1;
+  border: 0;
+  font-size: 20px;
 }
