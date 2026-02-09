@@ -1,11 +1,13 @@
 {
   "name": "@puzzleitc/slidev-theme-puzzle",
   "version": "1.0.0",
+  "description": "Slidev theme for Puzzle ITC corporate design",
   "type": "module",
   "keywords": [
     "slidev-theme",
     "slidev"
   ],
+  "homepage": "https://github.com/puzzle/slidev-theme-puzzle",
   "engines": {
     "node": ">=18.0.0"
   },
