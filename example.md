@@ -5,8 +5,20 @@ layout: cover
 
 # Slidev Theme<br><span class="highlight">Puzzle</span>
 
-First name, last name
+Firstname lastname
 <a href="mailto:email@puzzle.ch">email@puzzle.ch</a>
+
+---
+layout: agenda
+---
+
+# Agenda
+
+- Introduction
+- Who we are and what we do
+- Our Success Stories
+- Our Services
+- Q&A
 
 ---
 
@@ -28,6 +40,12 @@ Slidev is a slide maker and presentation tool designed for developers. It includ
 Read more about [Why Slidev?](https://sli.dev/guide/why)
 
 ---
+layout: intro
+---
+
+# What is<br><span class="highlight">important</span> to us
+
+---
 
 # Navigation
 
@@ -43,10 +61,8 @@ Hover on the bottom-left corner to see the navigation's controls panel
 | <kbd>down</kbd>                                      | next slide                  |
 
 ---
-
 layout: image-right
 image: https://cover.sli.dev
-
 ---
 
 # Code
@@ -69,12 +85,23 @@ function updateUser(id: number, update: Partial<User>) {
 ```
 
 ---
-
 layout: center
 class: "text-center"
-
 ---
 
 # Learn More
 
-[Documentation](https://sli.dev) / [GitHub Repo](https://github.com/slidevjs/slidev)
+[Documentation](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/resources/showcases)
+
+<PoweredBySlidev mt-10 />
+
+---
+layout: end
+---
+
+# Merci!
+
+Mehr Informationen zu Puzzle: \
+[www.puzzle.ch](https://www.puzzle.ch/)
+
+<PoweredBySlidev mt-10 />
