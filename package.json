@@ -1,6 +1,6 @@
 {
-  "name": "slidev-theme-puzzle",
-  "version": "0.0.0",
+  "name": "@puzzleitc/slidev-theme-puzzle",
+  "version": "1.0.0",
   "type": "module",
   "keywords": [
     "slidev-theme",
