@@ -2,22 +2,15 @@
 
 [![NPM version](https://img.shields.io/npm/v/slidev-theme-puzzle?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-puzzle)
 
-A (...) theme for [Slidev](https://github.com/slidevjs/slidev).
+A Puzzle ITC theme for [Slidev](https://github.com/slidevjs/slidev).
 
-<!--
-  Learn more about how to write a theme:
-  https://sli.dev/guide/write-theme.html
---->
+![Cover slide](./example-export/1.png)
 
-<!--
-  run `npm run dev` to check out the slides for more details of how to start writing a theme
--->
+![Default slide](./example-export/3.png)
 
-<!--
-  Put some screenshots here to demonstrate your theme
+![Intro slide](./example-export/4.png)
 
-  Live demo: [...]
--->
+![End slide](./example-export/8.png)
 
 ## Install
 
@@ -33,18 +26,14 @@ Learn more about [how to use a theme](https://sli.dev/guide/theme-addon#use-them
 
 This theme provides the following layouts:
 
-> TODO:
+- `agenda` for an slide with the table of contents
 
-## Components
-
-This theme provides the following components:
-
-> TODO:
+![Agenda slide](./example-export/2.png)
 
 ## Contributing
 
-- `npm install`
-- `npm run dev` to start theme preview of `example.md`
+- `pnpm install`
+- `pnpm dev` to start theme preview of `example.md`
 - Edit the `example.md` and style to see the changes
-- `npm run export` to generate the preview PDF
-- `npm run screenshot` to generate the preview PNG
+- `pnpm export` to generate the preview PDF
+- `pnpm screenshot` to generate the preview PNG

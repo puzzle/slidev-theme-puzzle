@@ -14,7 +14,10 @@ importers:
     devDependencies:
       '@slidev/cli':
         specifier: ^52.11.5
-        version: 52.11.5(@nuxt/kit@3.21.0)(@types/markdown-it@14.1.2)(@types/node@22.19.8)(@vue/compiler-sfc@3.5.27)(markdown-it-async@2.2.0)(postcss@8.5.6)
+        version: 52.11.5(@nuxt/kit@3.21.0)(@types/markdown-it@14.1.2)(@types/node@22.19.8)(@vue/compiler-sfc@3.5.27)(markdown-it-async@2.2.0)(playwright-chromium@1.58.2)(postcss@8.5.6)
+      playwright-chromium:
+        specifier: ^1.58.2
+        version: 1.58.2
 
 packages:
 
@@ -2035,6 +2038,16 @@ packages:
   plantuml-encoder@1.4.0:
     resolution: {integrity: sha512-sxMwpDw/ySY1WB2CE3+IdMuEcWibJ72DDOsXLkSmEaSzwEUaYBT6DWgOfBiHGCux4q433X6+OEFWjlVqp7gL6g==}
 
+  playwright-chromium@1.58.2:
+    resolution: {integrity: sha512-SCoQ3hjBs7FfO46CoOtgAUg77BuYwCni1bzQgm47IUyLBTipnGkLxLnaUNRKXvPYO4hAyt8++Z6wVShVnhrzmw==}
+    engines: {node: '>=18'}
+    hasBin: true
+
+  playwright-core@1.58.2:
+    resolution: {integrity: sha512-yZkEtftgwS8CsfYo7nm0KE8jsvm6i/PTgVtB8DL726wNf6H2IMsDuxCpJj59KDaxCtSnrWan2AeDqM7JBaultg==}
+    engines: {node: '>=18'}
+    hasBin: true
+
   points-on-curve@0.2.0:
     resolution: {integrity: sha512-0mYKnYYe9ZcqMCWhUjItv/oHjvgEsfKvnUTg8sAtnHr3GVy7rGkXCb6d5cSyqrWqL4k81b9CPg3urd+T7aop3A==}
 
@@ -3183,7 +3196,7 @@ snapshots:
 
   '@shikijs/vscode-textmate@10.0.2': {}
 
-  '@slidev/cli@52.11.5(@nuxt/kit@3.21.0)(@types/markdown-it@14.1.2)(@types/node@22.19.8)(@vue/compiler-sfc@3.5.27)(markdown-it-async@2.2.0)(postcss@8.5.6)':
+  '@slidev/cli@52.11.5(@nuxt/kit@3.21.0)(@types/markdown-it@14.1.2)(@types/node@22.19.8)(@vue/compiler-sfc@3.5.27)(markdown-it-async@2.2.0)(playwright-chromium@1.58.2)(postcss@8.5.6)':
     dependencies:
       '@antfu/ni': 28.2.0
       '@antfu/utils': 9.3.0
@@ -3255,6 +3268,8 @@ snapshots:
       vue: 3.5.27(typescript@5.9.3)
       yaml: 2.8.2
       yargs: 18.0.0
+    optionalDependencies:
+      playwright-chromium: 1.58.2
     transitivePeerDependencies:
       - '@nuxt/kit'
       - '@svgr/core'
@@ -5087,6 +5102,12 @@ snapshots:
       pathe: 2.0.3
 
   plantuml-encoder@1.4.0: {}
+
+  playwright-chromium@1.58.2:
+    dependencies:
+      playwright-core: 1.58.2
+
+  playwright-core@1.58.2: {}
 
   points-on-curve@0.2.0: {}
 
