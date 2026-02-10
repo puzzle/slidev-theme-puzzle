@@ -1,6 +1,6 @@
 # slidev-theme-puzzle
 
-[![NPM version](https://img.shields.io/npm/v/slidev-theme-puzzle?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-puzzle)
+[![NPM version](https://img.shields.io/npm/v/@puzzleitc/slidev-theme-puzzle?color=3AB9D4&label=)](https://www.npmjs.com/package/@puzzleitc/slidev-theme-puzzle)
 
 A Puzzle ITC theme for [Slidev](https://github.com/slidevjs/slidev).
 
