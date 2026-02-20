@@ -22,7 +22,9 @@
   },
   "devDependencies": {
     "@slidev/cli": "^52.11.5",
-    "playwright-chromium": "^1.58.2"
+    "playwright-chromium": "^1.58.2",
+    "prettier": "^3.8.1",
+    "prettier-plugin-slidev": "^1.0.5"
   },
   "//": "Learn more: https://sli.dev/guide/write-theme.html",
   "slidev": {
@@ -30,7 +32,8 @@
     "defaults": {
       "fonts": {
         "sans": "Roboto",
-        "mono": "Fira Code"
+        "mono": "Fira Code",
+        "weights": "200,300,400,600"
       }
     }
   }
