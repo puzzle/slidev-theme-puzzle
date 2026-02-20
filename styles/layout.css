@@ -13,12 +13,34 @@
   --puzzle-brand7: #69b978; /* Emerald */
   --puzzle-brand8: #61b44b; /* Brilliant Green */
   --puzzle-brand9: #1b2d53; /* Prussian Blue */
+
+  --slidev-font-weight-base: 300;
 }
 
 /* General */
 
+body {
+  font-weight: 300;
+}
+
+.slidev-layout h1,
+.slidev-layout h2,
+.slidev-layout h3,
+.slidev-layout h4 {
+  font-weight: 400;
+}
+
 .slidev-layout h1 {
-  color: #15508b;
+  color: var(--puzzle-brand9);
+}
+
+.slidev-layout h2 {
+  color: var(--puzzle-brand2);
+}
+
+.slidev-layout a {
+  color: var(--puzzle-brand4);
+  border-style: solid;
 }
 
 .slidev-layout.cover,
@@ -71,13 +93,7 @@
   @apply mb-0;
   opacity: 1;
   font-size: 24px;
-  line-height: 1.15;
-}
-
-.slidev-layout.cover h1 + p a {
-  @apply block mt-1;
-  border: 0;
-  font-size: 20px;
+  line-height: 1.25;
 }
 
 /* Layout "intro" */
@@ -136,12 +152,20 @@
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: 300px;
-  
+}
+
+.slidev-layout.agenda ol.slidev-toc-list {
+  list-style: disc;
 }
 
 .slidev-layout.agenda h1 {
   font-size: 70px;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.6em;
+}
+
+.slidev-layout.agenda a {
+  color: black;
+  border: 0;
 }
 
 /* Layout "quote" */
