@@ -5,7 +5,7 @@ layout: cover
 
 # Slidev Theme<br><span class="highlight">Puzzle</span>
 
-Firstname lastname
+Firstname lastname \
 <a href="mailto:email@puzzle.ch">email@puzzle.ch</a>
 
 ---
@@ -19,6 +19,97 @@ layout: agenda
 - Our Success Stories
 - Our Services
 - Q&A
+
+---
+layout: meet
+---
+
+# Nice to meet you
+
+::members::
+
+<div>
+  <img src="./images/Tux.png" alt="Daniel Müller">
+
+Daniel Müller
+
+Key Account Manager \
+mueller@puzzle.ch
+
+</div>
+
+<div>
+  <img src="./images/Tux.png" alt="Maria Meier">
+
+Maria Meier
+
+Members Coach \
+meier@puzzle.ch
+
+</div>
+
+<div>
+  <img src="./images/Tux.png" alt="Peter Schmid">
+
+Peter Schmid
+
+Software Engineer, \
+Member of the Technical Board \
+schmid@puzzle.ch
+
+</div>
+
+<!--
+Get member photos here:
+
+https://files.puzzle.ch/apps/files/files/6267463?dir=/ux/Projects/Puzzle/00_Puzzle%20Team/00_Member_Fotos/03_Rund%20fuer%20Praesis/Assets_BG_Unifarbe
+-->
+
+---
+layout: meet
+---
+
+# Nice to meet you
+
+::members::
+
+<div>
+  <img src="./images/Tux.png" alt="Daniel Müller">
+
+Daniel Müller
+
+Key Account Manager \
+mueller@puzzle.ch
+
+</div>
+
+<div>
+  <img src="./images/Tux.png" alt="Maria Meier">
+
+Maria Meier
+
+Members Coach \
+meier@puzzle.ch
+
+</div>
+
+---
+layout: meet
+---
+
+# Nice to meet you
+
+::members::
+
+<div>
+  <img src="./images/Tux.png" alt="Daniel Müller">
+
+Daniel Müller
+
+Key Account Manager \
+mueller@puzzle.ch
+
+</div>
 
 ---
 

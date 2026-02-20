@@ -152,3 +152,64 @@
     @apply mt-2;
   }
 }
+
+/* Layout "meet" */
+.slidev-page:has(.slidev-layout.meet) {
+  background: linear-gradient(
+    0deg,
+    var(--puzzle-brand7) 0%,
+    var(--puzzle-brand7) 50%,
+    white 50%
+  );
+  padding: 1rem;
+}
+
+.slidev-layout.meet {
+  background-color: var(--puzzle-brand2);
+  border-radius: 2rem;
+}
+
+.slidev-layout.meet .members {
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+}
+
+.slidev-layout.meet,
+.slidev-layout.meet h1,
+.slidev-layout.meet a {
+  color: white;
+}
+
+.slidev-layout.meet h1 {
+  font-size: 70px;
+  margin-bottom: 3rem;
+}
+
+.slidev-layout.meet .members > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.slidev-layout.meet .members > div > img {
+  width: 200px;
+  margin-bottom: 1rem;
+  border-radius: 50%;
+}
+
+.slidev-layout.meet .members > div .name,
+.slidev-layout.meet .members > div > p:first-of-type {
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
+
+.slidev-layout.meet .members > div .title,
+.slidev-layout.meet .members > div p:last-of-type {
+  font-size: 1.2em;
+}
+
+.slidev-layout.meet .members > div p:last-of-type a {
+  font-size: 1.1rem;
+}

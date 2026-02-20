@@ -6,11 +6,11 @@ A Puzzle ITC theme for [Slidev](https://github.com/slidevjs/slidev).
 
 ![Cover slide](./example-export/1.png)
 
-![Default slide](./example-export/3.png)
+![Default slide](./example-export/6.png)
 
-![Intro slide](./example-export/4.png)
+![Intro slide](./example-export/7.png)
 
-![End slide](./example-export/8.png)
+![End slide](./example-export/11.png)
 
 ## Install
 
@@ -26,9 +26,13 @@ Learn more about [how to use a theme](https://sli.dev/guide/theme-addon#use-them
 
 This theme provides the following layouts:
 
-- `agenda` for an slide with the table of contents
+- `agenda` for a slide with the table of contents
 
 ![Agenda slide](./example-export/2.png)
+
+- `meet` for a slide to present one or more members
+
+![Agenda slide](./example-export/3.png)
 
 ## Contributing
 
