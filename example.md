@@ -131,6 +131,36 @@ Slidev is a slide maker and presentation tool designed for developers. It includ
 Read more about [Why Slidev?](https://sli.dev/guide/why)
 
 ---
+
+# Structure of a blank slide
+
+- Because the listener is focused on you.
+- And can only perceive a small amount of text during the presentation.
+- Therefore, remember: Use bullet points sparingly.
+
+---
+
+# And if I Must Show Text
+
+Then you use such a slide without bullet points. Here too, use sparingly. The listener can only perceive and read text to a minor extent during a presentation. Our goal during a presentation is to ensure that the listener focuses on what you are saying.
+
+---
+
+# Title
+
+## Subtitle 1
+
+And if you want to use text with different hierarchies, you can do it as on this slide.
+
+## Subtitle 2
+
+The slide is divided into subtitles and subheadings. The hierarchy helps the listener to classify the topics.
+
+- This hierarchy aids understanding.
+- The information presented can be better classified...
+- ...and what has been said can be processed more effectively...
+
+---
 layout: intro
 ---
 
